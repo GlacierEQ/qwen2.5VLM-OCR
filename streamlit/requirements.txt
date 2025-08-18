@@ -2,3 +2,5 @@ streamlit
 requests
 pillow
 pdf2image
+markdown2
+pynvml

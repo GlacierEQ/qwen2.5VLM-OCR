@@ -15,9 +15,8 @@ services:
             - driver: nvidia
               count: all
               capabilities: [gpu]
-
   streamlit-ui:
-    build: ./streamlit   # 👈 updated from ./streamlit-app
+    build: ./streamlit
     ports:
       - "8501:8501"
     volumes:
